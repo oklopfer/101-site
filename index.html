@@ -1,26 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My Homepage</title>
-</head>
-<body>
-	<header>
-		<h1>Welcome to my homepage</h1>
-		<nav>
-			<ul>
-				<li><a href="snake.html">Snake</a></li>
-				<li><a href="Amren.html">Amren</a></li>
-				<li><a href="oren.html">Oren</a></li>
-			</ul>
-		</nav>
-	</header>
-	
-	<main>
-		<p>This is the main content of my homepage.</p>
-	</main>
-	
-	<footer>
-		<p>Copyright © 2023</p>
-	</footer>
-</body>
+  <head>
+    <title>My Group's Website</title>
+    <style>
+      /* CSS styles for the header bar */
+      header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      /* CSS styles for the body */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* CSS styles for the links */
+      nav a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        display: inline-block;
+      }
+
+      nav a:hover {
+        background-color: white;
+        color: #333;
+      }
+	        
+      #game-box {
+        margin: 20px auto;
+        width: 500px;
+        height: 500px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header bar -->
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="oren.html">Oren</a>
+        <a href="Amren.html">Amren</a>
+        <a href="Weiji.html">Weiji</a>
+	<a href="snake.html">Snake Game</a>
+      </nav>
+    </header>
+
+    <!-- Homepage content -->
+    <h1>Welcome to our website!</h1>
+    <p>This is the homepage of our website. Here, you can find links to our personal pages:</p>
+    <ul>
+      <li><a href="oren.html">Oren</a></li>
+      <li><a href="Amren.html">Amren</a></li>
+      <li><a href="Weiji.html">Weiji</a></li>
+    </ul>
+    <p> or even play games! </p>
+	      <!-- Game box -->
+    <div id="game-box">
+      <iframe src="snake.html" width="50%" height="50%"></iframe>
+    </div>
+       <!-- Game box -->
+    <div id="game-box">
+      <iframe src="pacman.html" width="50%" height="50%"></iframe>
+    </div>
+  </body>
 </html>
