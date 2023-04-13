@@ -7,18 +7,19 @@
   </head>
   <body>
     <!-- Header bar -->
-    <header>
-      <div class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="oren.html">Oren</a>
-        <a href="Amren.html">Amren</a>
-        <a href="Weiji.html">Weiji</a>
-	<a href="snake.html">Snake</a>
-	<a href="pacman.html">Pacman</a>
+  <header class="o-extended" id="header">
+        <li style="float:right !important" class="mob-show mobile-menu"><a onclick="ddshow()"><span><b>☰</b></span></a></li>
+            <ul class="main-nav">
+		    <li><a href="index.html">Home</a></li>
+         <li><a href="oren.html">Oren</a></li>
+        <li><a href="Amren.html">Amren</a></li>
+        <li><a href="Weiji.html">Weiji</a></li>
+	<li><a href="snake.html">Snake</a></li>
+	<li><a href="pacman.html">Pacman</a></li>
       </div>
     </header>
 
-    <!-- Homepage content -->
+    <div class="container">
     <h1>Welcome to our website!</h1>
     <p>This is the homepage of our website. Here, you can find links to our personal pages:</p>
     <ul>
@@ -35,5 +36,6 @@
     <div id="game-box">
       <iframe src="pacman.html" width="100%" height="100%"></iframe>
     </div>
+	  </div>
   </body>
 </html>
