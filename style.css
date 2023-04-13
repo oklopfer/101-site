@@ -5,10 +5,10 @@
 :root {
   --bg-color: #1a1a1a;
   --fg-color: #fefefe;
-  --accent-1: #986bd5;
+  --accent-1: #407e80;
   --accent-2: #424080;
   --accent-3: #5b4080;
-  --accent-4: #407e80;
+  --accent-4: #986bd5;
   --accent-5: #7e7fdc;
   --urgent: #6955cf;
 }
@@ -38,7 +38,7 @@ body {
 /* Home Header */
 .extended {
   background-color: var(--accent-1);
-  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 4vw), 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% + 3vw), 0 100%);
   text-align: center;
   width: 100%;
   height: 50vh;
