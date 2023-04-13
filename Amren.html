@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>My Group's Website</title>
     <link rel="stylesheet" href="style.css">
     <style type="text/css"></style>
+	  <script>
+function ddshow() {
+    document.getElementById("dropdown").style.display = "block";
+    document.getElementById("header").style.display = "none";
+}
+
+// Hide dropdown menu
+function ddhide() {
+    document.getElementById("dropdown").style.display = "none";
+    document.getElementById("header").style.display = "block";
+}
+</script>
   </head>
   <body>
     <!-- Header bar -->
-    <header>
-      <div class="main-nav">
-        <a href="index.html">Home</a>
-        <a href="oren.html">Oren</a>
-        <a href="Amren.html">Amren</a>
-        <a href="Weiji.html">Weiji</a>
-	<a href="snake.html">Snake</a>
-	<a href="pacman.html">Pacman</a>
-      </div>
+  <header class="o-extended" id="header">
+        <li style="float:right !important" class="mob-show mobile-menu"><a onclick="ddshow()"><span><b>☰</b></span></a></li>
+            <ul class="main-nav">
+		    <li><a href="index.html">Home</a></li>
+         <li><a href="oren.html">Oren</a></li>
+        <li><a href="Amren.html">Amren</a></li>
+        <li><a href="Weiji.html">Weiji</a></li>
+	<li><a href="snake.html">Snake</a></li>
+	<li><a href="pacman.html">Pacman</a></li>
+      </ul>
+	      <h1>Welcome to our website!</h1>
     </header>
         personal intro page 
     </body>
