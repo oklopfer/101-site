@@ -1,56 +1,35 @@
 <!DOCTYPE html>
 <html>
-    <style>
-      /* CSS styles for the header bar */
-      header {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px;
-        font-size: 20px;
-      }
-
-      /* CSS styles for the body */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-      }
-
-      /* CSS styles for the links */
-      nav a {
-        color: white;
-        text-decoration: none;
-        padding: 10px;
-        display: inline-block;
-      }
-
-      nav a:hover {
-        background-color: white;
-        color: #333;
-      }
-	        
-      #game-box {
-        margin: 20px auto;
-        width: 500px;
-        height: 500px;
-        border: 1px solid black;
-      }
-    </style>
+  <head>
+    <title>personal intro page</title>
+    <link rel="stylesheet" href="style.css">
+    <style type="text/css"></style>
+    <script src="navbar.js"></script>
   </head>
   <body>
+	  <div id="dropdown">
+        <div class="container">
+            <div class="exit">
+                <a onclick="ddhide()" style="color:#fefefe">x</a>
+            </div>
+            <div class="content">
+                <p><a onclick="ddhide()" href="index.html">Home</a></p>
+                <p><a onclick="ddhide()" href="oren.html">Oren</a></p>
+                <p><a onclick="ddhide()" href="Amren.html">Amren</a></p>
+                <p><a onclick="ddhide()" href="weijie.html">Weijie</a></p>
+            </div>
+        </div>
+    </div>
     <!-- Header bar -->
-    <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="oren.html">Oren</a>
-        <a href="Amren.html">Amren</a>
-        <a href="Weijie.html">Weijie</a>
-	<a href="snake.html">Snake</a>
-	<a href="pacman.html">Pacman</a>
-      </nav>
+  <header class="o-extended" id="header">
+        <li style="float:right !important" class="mob-show mobile-menu"><a onclick="ddshow()"><span><b>☰</b></span></a></li>
+            <ul class="main-nav">
+		    <li><a href="index.html">Home</a></li>
+         <li><a href="oren.html">Oren</a></li>
+        <li><a href="Amren.html">Amren</a></li>
+        <li><a href="weijie.html">Weijie</a></li>
+      </ul>
+	      <h1>Weijie</h1>
     </header>
-    <body>
-        personal intro page 
-    </body>
+  </body>
 </html>
