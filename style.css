@@ -185,14 +185,17 @@ body {
 
 .container p {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .container img {
+  text-align: center;
   border-radius: 0.5em;
   margin-bottom: 1em;
 }
 
 .container a {
+  text-align: center;
   color: var(--accent-1);
 }
 
